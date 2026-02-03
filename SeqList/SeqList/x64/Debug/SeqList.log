@@ -1,0 +1,3 @@
+﻿  SeqList.c
+D:\code\code_for_study\SeqList\SeqList\SeqList.c(36,11): warning C4133: “函数”: 从“DataType *”到“const char *”的类型不兼容
+  SeqList.vcxproj -> D:\code\code_for_study\SeqList\x64\Debug\SeqList.exe
