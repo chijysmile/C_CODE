@@ -1,0 +1,5 @@
+﻿  test.c
+D:\code\code_for_study\leetcode1_28\leetcode1_28\test.c(9,38): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+D:\code\code_for_study\leetcode1_28\leetcode1_28\test.c(11,29): error C2065: “numsSize”: 未声明的标识符
+D:\code\code_for_study\leetcode1_28\leetcode1_28\test.c(12,25): error C2065: “nums”: 未声明的标识符
+D:\code\code_for_study\leetcode1_28\leetcode1_28\test.c(12,25): error C2109: 下标要求数组或指针类型
