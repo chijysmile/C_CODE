@@ -33,3 +33,5 @@ void HPPop(HP* php);
 HPDataType HPTop(HP* php);
 
 bool HPEmpty(HP* php);
+
+void heapsort(HPDataType* a,int n);

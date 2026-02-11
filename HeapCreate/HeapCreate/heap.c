@@ -31,7 +31,7 @@ void Swap(HPDataType* p1, HPDataType* p2)
 
 
 
-//向下调整算法（有大堆的和小堆的两种这里是大堆的）
+//向下调整算法（有大堆的和小堆的两种这里是小堆的）
 void AdjustUp(HPDataType* a, int child)
 {
 	int parent = (child - 1) / 2;
@@ -52,17 +52,14 @@ void AdjustUp(HPDataType* a, int child)
 
 
 
-//向下调整算法
+//向下调整算法(这里是小堆的向下调整算法)
 void AdjustDown(HPDataType* a, int n, int parent)
 {
 	int child = parent * 2 + 1;
-	if (a[child] < a[child + 1])
-	{
-		child++;
-	}
+	
 	while (child < n) 
 	{
-		if (a[child] < a[child + 1])
+		if (child + 1 < n&&a[child] > a[child + 1])
 		{
 			child++;
 		}
@@ -129,3 +126,35 @@ bool HPEmpty(HP* php) {
 	return php->size == 0;
 }
 
+
+void heapsort(HPDataType* a,int n)
+{
+	//先向下调整建堆
+	
+	
+	for (int i = (n - 2) / 2; i >= 0; i--)
+	{
+		AdjustDown(a, n, i);
+	}
+	//排序
+	// O(N*logN)
+	int end = n - 1;
+	while (end > 0)
+	{
+		Swap(&a[0], &a[end]);
+		AdjustDown(a, end, 0);
+		--end;
+	}
+
+	/*for (int i = 0; i < end ; i++)
+	{
+		Swap(&a[0], &a[end - i]);
+		AdjustDown(a, end - i, 0);
+
+	}*/
+
+	for (int i = 0; i < n; i++)
+	{
+		printf("%d ", a[i]);
+	}
+}

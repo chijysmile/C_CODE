@@ -1,0 +1,3 @@
+﻿  heap.c
+D:\code\code_for_study\HeapCreate\HeapCreate\heap.c(101,11): warning C4133: “函数”: 从“HP *”到“HPDataType *”的类型不兼容
+  HeapCreate.vcxproj -> D:\code\code_for_study\HeapCreate\x64\Debug\HeapCreate.exe
