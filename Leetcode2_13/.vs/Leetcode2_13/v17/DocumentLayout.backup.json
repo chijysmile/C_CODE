@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\code\\code_for_study\\Leetcode2_13\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F6928C08-7ED5-4AA6-A456-EFDEE8D3747D}|Leetcode2_13\\Leetcode2_13.vcxproj|D:\\code\\code_for_study\\Leetcode2_13\\Leetcode2_13\\test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F6928C08-7ED5-4AA6-A456-EFDEE8D3747D}|Leetcode2_13\\Leetcode2_13.vcxproj|solutionrelative:Leetcode2_13\\test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 249,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "test.c",
+              "DocumentMoniker": "D:\\code\\code_for_study\\Leetcode2_13\\Leetcode2_13\\test.c",
+              "RelativeDocumentMoniker": "Leetcode2_13\\test.c",
+              "ToolTip": "D:\\code\\code_for_study\\Leetcode2_13\\Leetcode2_13\\test.c",
+              "RelativeToolTip": "Leetcode2_13\\test.c",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-02-13T11:42:42.654Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
