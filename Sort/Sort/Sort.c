@@ -76,3 +76,99 @@ void heapsort(int* a, int n)
 		printf("%d ", a[i]);
 	}
 }
+
+
+void InsertSort(int* a, int n)
+{
+
+	for (int i=0;i<n-1;i++)
+	{
+		int end = i;
+		int tmp = a[end + 1];
+		while (end>=0)
+		{
+			if (a[end] > tmp) {
+				a[end + 1] = a[end];
+				end--;
+			}
+			else {
+				break;
+			}
+		}
+		a[end + 1] = tmp;
+	}
+
+	PrintArr(a, n);
+	
+}
+
+void PrintArr(int *a,int n)
+{
+	for (int i = 0; i < n; i++)
+	{
+		printf("%d ", a[i]);
+	}
+}
+
+//void SelectSort(int* a, int n) 
+//{
+//
+//	for (int i = 0; i < n - 1; i++) 
+//	{
+//
+//		int end = i+1;
+//		int keyi = i;
+//		while (end < n)
+//		{
+//			if (a[end] < a[keyi])
+//			{
+//				keyi = end;
+//			}
+//			end++;
+//		}
+//		Swap(&a[i], &a[keyi]);
+//	}
+//	
+//	PrintArr(a, n);
+//}
+
+void SelectSort(int* a, int n)
+{
+	int begin = 0, end = n - 1;
+
+	while (begin < end)
+	{
+		int mini = begin, maxi = begin;
+		for (int i = begin + 1; i <= end; ++i)
+		{
+			if (a[i] > a[maxi])
+			{
+				maxi = i;
+			}
+
+			if (a[i] < a[mini])
+			{
+				mini = i;
+			}
+		}
+
+		Swap(&a[begin], &a[mini]);
+		if (begin == maxi)
+			maxi = mini;
+
+		Swap(&a[end], &a[maxi]);
+		++begin;
+		--end;
+	}
+	
+
+	PrintArr(a, n);
+
+}
+	
+
+
+
+
+
+
