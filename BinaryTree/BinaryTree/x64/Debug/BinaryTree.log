@@ -1,0 +1,3 @@
+﻿  BinaryTree.c
+D:\code\code_for_study\BinaryTree\BinaryTree\BinaryTree.c(107,1): warning C4715: “BTLevelKSize”: 不是所有的控件路径都返回值
+  BinaryTree.vcxproj -> D:\code\code_for_study\BinaryTree\x64\Debug\BinaryTree.exe
